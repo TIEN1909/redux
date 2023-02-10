@@ -6,7 +6,7 @@ export const updateUser = async (user, dispatch) => {
   dispatch(updateBegin());
 
   try {
-    const res = await axios.post("/v1/update", user);
+    const res = await axios.post("https://redux-tawny.vercel.app/", user);
     dispatch(updateSuccess(res.data));
   } catch (err) {
     dispatch(updateError());
