@@ -1,0 +1,34 @@
+.info-container{
+    width: 100%;
+    height: 240px;
+    color: white;
+}
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.info-ava{
+    width: 50px;
+    height: 100px;
+}
+.info-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info-edit{
+    text-align: right;
+    /* margin-right: 40px; */
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.btn{
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,91 @@
+.post-container{
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+    margin-bottom: 100px;
+}
+.post-heading{
+    text-align: right;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-tag-None,.btn-tag-NSFW,.btn-tag-Mood,.btn-tag-Quotes,.btn-tag-Shitpost,.btn-tag-selected{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.btn-tag-None{
+    background-color: rgb(207, 207, 228);
+}
+.btn-tag-NSFW{
+    background-color: rgb(207, 61, 16);
+}
+.btn-tag-Mood{
+    background-color: rgb(63, 63, 244);
+}
+.btn-tag-Quotes{
+    background-color: rgb(202, 26, 199);
+}
+.btn-tag-Shitpost{
+    background-color: rgb(119, 181, 34);
+}
+.btn-tag-selected{
+    background-color: rgb(32, 218, 4);
+    box-shadow: rgb(32, 218, 4) 0px 5px 15px;
+}
+.post-wrapper{
+    /* padding: 0 10px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+.post-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0 ;
+    background-color: rgb(255, 255, 255, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    overflow: hidden;
+    color: white;
+    padding: 5px;
+}
+
+.post-tags{
+    width: 20%;
+    text-align: center;
+}
+.post-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    font-size: 7px;
+    margin-top: 12px;
+    padding: 2px;
+}
+.time-None{
+    background-color: rgb(207, 207, 228);
+}
+.time-NSFW{
+    background-color: rgb(207, 61, 16);
+}
+.time-Mood{
+    background-color: rgb(63, 63, 244);
+}
+.time-Quotes{
+    background-color: rgb(202, 26, 199);
+}
+.time-Shitpost{
+    background-color: rgb(119, 181, 34);
+}
+.time-selected{
+    background-color: rgb(32, 218, 4);
+    box-shadow: rgb(32, 218, 4) 0px 5px 15px;
+}
